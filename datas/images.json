@@ -1,0 +1,26 @@
+[
+  {
+    "imageUrl":"images/specificProductPictures/bottomView.jpg",
+    "imageId":"image1"
+  },
+  {
+    "imageUrl":"images/specificProductPictures/frontView.jpg",
+    "imageId":"image2"
+  },
+  {
+    "imageUrl":"images/specificProductPictures/leftSideView.jpg",
+    "imageId":"iamge3"
+  },
+  {
+    "imageUrl":"images/specificProductPictures/rearView.jpg",
+    "imageId":"image4"
+  },
+  {
+    "imageUrl":"images/specificProductPictures/rightSideView.jpg",
+    "imageId":"image5"
+  },
+  {
+    "imageUrl":"images/specificProductPictures/topView.jpg",
+    "imageId":"image6"
+  }
+]

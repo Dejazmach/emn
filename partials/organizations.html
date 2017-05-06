@@ -1,0 +1,103 @@
+<section>
+  <div class="navbar navbar-inverse navbar-static-top navig navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand logo" rel="home" href="#/" title="ገበያ - Homepage">ገበያ</a>
+    </div>
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+        <div class="col-sm-3 col-md-3 pull-left">
+            <form class="navbar-form" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control searchField" placeholder="Search" name="srch-term" id="srch-term">
+                    <div class="input-group-btn">
+                      <button type="button" class="btn dropdown-toggle navBtn" data-toggle="dropdown"><i class="glyphicon glyphicon-search"></i>
+                      <span class="caret"></span></button>
+                      <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">All</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Electronics</a></li>
+                            <li><a href="#">House holds</a></li>
+                            <li><a href="#">Software Products</a></li>
+                            <li><a href="#">Used Materials</a></li>
+                            <li><a href="#">Vehicles</a></li>
+                            
+                            <li class="divider"></li>
+                            
+                            <li><a href="#">Bars</a></li>
+                            <li><a href="#">Beauty Saloons</a></li>
+                            <li><a href="#">Boutiques</a></li>
+                            <li><a href="#">Gambling Rooms</a></li>
+                            <li><a href="#">Gas Stations</a></li>
+                            <li><a href="#">Restaurants, Hotel and Spa</a></li>
+                            <li><a href="#">Hospitals</a></li>
+                            <li><a href="#">Ministry Offices</a></li>
+                            <li><a href="#">Schools</a></li>
+                            <li><a href="#">Telecoms</a></li>
+                            <li><a href="#">Ticket Offices</a></li>
+                            <li><a href="#">Tour Operators</a></li>
+                            
+                      </ul>
+                    </div>
+                  </input>
+                </div>
+            </form>        
+        </div>
+        <div class="pull-right">
+            <ul class="nav navbar-nav navbar-right loginBtn">
+                <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+            </ul>
+        </div>
+    </div>
+    
+  </div>
+  <div class="mainContent">
+    <div class=" row listIdentifier mainHeading">
+        <h1>Administer Organizations</h1><br/>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-9 adminPage">
+        <ul class="newUnOrderedList">
+            <br>
+            <li class="newSpecificProductList" ng-repeat="organization in organizations | orderBy: organizationOrder">
+              <div class="newList">
+                <div class="singleSpecificProduct">
+                    <h2>{{organization.organizationMainName}}</h2>
+                    <h4>{{organization.organizationInfo}}</h4>
+                    <h3>{{organization.organizationMainAddress.mobilePhoneNo}}</h3>
+                    <h3>{{organization.websiteUrl}}</h3>
+                    <br>
+                  <a href="#/organizaitons/{{organizations.indexOf(organization)}}"><button type="button" class="btn btn-warning spAddDelete">
+                    <span class="glyphicon btn-danger"></span> Edit
+                  </button></a>
+                  <a href="#/organizaitons"><button type="button" class="btn btn-danger spAddDelete">
+                    <span class="glyphicon btn-danger"></span>Delete
+                  </button></a>
+                </div>
+                
+              </div>
+            </li>
+            
+            <a href="#/organizationAdd"><button type="button" class="addSPButton btn btn-success">
+              <span class="glyphicon"></span> + Add
+            </button></a>
+            <br><br>
+          
+        </ul>  
+        
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+    <br>
+  </div>
+  <br><br><br>
+    
+</section>

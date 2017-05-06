@@ -1,0 +1,26 @@
+[
+  {
+    "pictureName":"frontView",
+    "pictureDescription":"Front View of Enjera"
+  },
+  {
+    "pictureName":"topView",
+    "pictureDescription":"Top View of Enjera"
+  },
+  {
+    "pictureName":"rearView",
+    "pictureDescription":"Rear View of Enjera"
+  },
+  {
+    "pictureName":"leftSideView",
+    "pictureDescription":"Left View of Enjera"
+  },
+  {
+    "pictureName":"rightSideView",
+    "pictureDescription":"Right View of Enjera"
+  },
+  {
+    "pictureName":"bottomView",
+    "pictureDescription":"Bottom View of Enjera"
+  }
+]

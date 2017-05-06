@@ -1,0 +1,77 @@
+[
+  {
+    "organizationMainName":"Selam Bus",
+    "websiteUrl":"www.selambus.com",
+    "organizationInfo":"The best bus transportation in Ethiopia.",
+    "organizationMainAddress":{
+                "countryName":"Ethiopia",
+                "cityName":"Addis Ababa",
+                "mobilePhoneNo":"0912978393",
+                "fixedLinePhoneNo":"None",
+                "streetName":"Stadium",
+                "houseNo": "905",
+                "lat":"9.05",
+                "lng":"38.05"
+              }
+  },
+  {
+    "organizationMainName":"Marhaton Motors",
+    "websiteUrl":"www.marathon-motors.com",
+    "organizationInfo":"An outstanding vehcle dealer in Ethiopia owned by the best athelet of the planet, Haile Gebre Silasie.",
+    "organizationMainAddress":{
+                "countryName":"Ethiopia",
+                "cityName":"Addis Ababa",
+                "mobilePhoneNo":"0912062883",
+                "fixedLinePhoneNo":"None",
+                "streetName":"Aba Tatek Street",
+                "houseNo": "906",
+                "lat":"9.05",
+                "lng":"38.05"
+              }
+  },
+  {
+    "organizationMainName":"3F Furnitures",
+    "websiteUrl":"www.3f.com",
+    "organizationInfo":"A big firm importing and distributing furnitures in Ethiopia",
+    "organizationMainAddress":{
+                "countryName":"Ethiopia",
+                "cityName":"Addis Ababa",
+                "mobilePhoneNo":"0912978393",
+                "fixedLinePhoneNo":"None",
+                "streetName":"Bole Road",
+                "houseNo": "907",
+                "lat":"9.05",
+                "lng":"38.05"
+              }
+  },
+  {
+    "organizationMainName":"Sheratorn Hotel",
+    "websiteUrl":"www.Sheratorn-Addis.com",
+    "organizationInfo":"A 5 star hotel owned by Sheik Mohammed Ali Alamoudi.",
+    "organizationMainAddress":{
+                "countryName":"Ethiopia",
+                "cityName":"Addis Ababa",
+                "mobilePhoneNo":"0912978393",
+                "fixedLinePhoneNo":"None",
+                "streetName":"Kazanchis Road",
+                "houseNo": "908",
+                "lat":"9.05",
+                "lng":"38.05"
+              }
+  },
+  {
+    "organizationMainName":"Don Dental Clinic",
+    "websiteUrl":"www.don.com",
+    "organizationInfo":"A dental Clinic with a multitude of services and branches.",
+    "organizationMainAddress":{
+                "countryName":"Ethiopia",
+                "cityName":"Addis Ababa",
+                "mobilePhoneNo":"0912978393",
+                "fixedLinePhoneNo":"None",
+                "streetName":"22",
+                "houseNo": "909",
+                "lat":"9.05",
+                "lng":"38.05"
+              }
+  }
+]

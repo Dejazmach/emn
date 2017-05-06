@@ -1,0 +1,68 @@
+[
+  {
+    "specificProductName":"Cabinet",
+    "specificProductPrice":"30",
+    "specificProductManufacturerName":"3F Furnitures",
+    "specificProductModel":"Ethiopian",
+    "specificProductAvailablity":"true",
+    "specificProductId": "woman1",
+    "specifcProductDescription":"An Ethiopian Woman is a wonderful looking, decent and highly hunger tolerant woman made by God ever since man's creation. We have lots and lots of Ethiopian women with a range of skin colors varying from dark black to snow white. Order Ethiopian woman before the offer ends! God bless!",
+    "specificProductProfile" : "images/Cabinet.jpg",
+    "address" : "Bole"
+  },
+  {
+    "specificProductName":"Beyaynet",
+    "specificProductPrice":"4.50",
+    "specificProductManufacturerName":"Tiruye Enjera",
+    "specificProductModel":"Kotebe",
+    "specificProductAvailablity":"true",
+    "specificProductId": "enjera1",
+    "specifcProductDescription":"Enjera is the highly used food stuff in Ethiopia which is assumed to have 10 % of iron and 90 % of \"neger\". Use Enjera in your dish on a daily basis and disturb the environment. Tiruye Enjera would like to announce a special offer for all Enjera eaters as of July, 23 2016! God bless America!",
+    "specificProductProfile" : "images/Beyaynet.jpg",
+    "address" : "Gulele"
+  },
+  {
+    "specificProductName":"Lamborghini",
+    "specificProductPrice":"50000",
+    "specificProductManufacturerName":"Marathon Motors",
+    "specificProductModel":"Ethiopian",
+    "specificProductAvailablity":"false",
+    "specificProductId": "ethiopianLady1",
+    "specifcProductDescription":"Hillary is a sophomore art sculpture student at New York University, and has already won all the major international prizes for new sculptors, including the Divinity Circle, the International Sculptor's Medal, and the Academy of Paris Award. Hillary's CAC exhibit features 25 abstract watercolor paintings that contain only water images including waves, deep sea, and river.",
+    "specificProductProfile" : "images/Lamborghini.jpg",
+    "address" : "Megenagna"
+  },
+  {
+    "specificProductName":"Display",
+    "specificProductPrice":"45",
+    "specificProductManufacturerName":"dVentus Technologies",
+    "specificProductModel":"USA",
+    "specificProductAvailablity":"false",
+    "specificProductId": "airportDisplay1",
+    "specifcProductDescription":"The Art College in New Dehli has sponsored Hassum on scholarship for his entire undergraduate career at the university, seeing great promise in his contemporary paintings of landscapes - that use equal parts muted and vibrant tones, and are almost a contradiction in art. Hassum will be speaking on \"The use and absence of color in modern art\" during Thursday's agenda.",
+    "specificProductProfile" : "images/Display.jpg",
+    "address" : "Jacros"
+  },
+  {
+    "specificProductName":"Bed",
+    "specificProductPrice":"450",
+    "specificProductManufacturerName":"3F Furnitures",
+    "specificProductModel":"Bed001",
+    "specificProductAvailablity":"false",
+    "specificProductId": "bed1",
+    "specifcProductDescription":"A native of New Orleans, much of Jennifer's work has centered around abstract images that depict flooding and rebuilding, having grown up as a teenager in the post-flood years. Despite the sadness of devastation and lives lost, Jennifer's work also depicts the hope and togetherness of a community that has persevered. Jennifer's exhibit will be discussed during Tuesday's Water in Art theme.",
+    "specificProductProfile" : "images/Bed.jpg",
+    "address" : "Kazanchis"
+  },
+  {
+    "specificProductName":"Apartama",
+    "specificProductPrice":"45000",
+    "specificProductManufacturerName":"T/Birhan Ambaye",
+    "specificProductModel":"Apartama002",
+    "specificProductAvailablity":"true",
+    "specificProductId": "apartama1",
+    "specifcProductDescription":"The house has 6 bed rooms 2 kitchens 2 bath rooms and is lying on 450 Square Meter Area. There is no busines organization that causes noise in 100 meter radius to the house.",
+    "specificProductProfile" : "images/Apartama.jpg",
+    "address" : "Ayat"
+  }
+]

@@ -1,0 +1,44 @@
+.firstLevelTree {
+	padding-left: 10px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.secondLevelTree {
+	padding-left: 60px;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 10px;
+}
+#advertismentsList {
+	background: #d3d3d3;
+  	color: #3b5998;
+  	width: 100%;
+  	max-width: 1200px;
+  	margin: 0 auto;
+  	margin-top: 0px;
+  	margin-bottom: 20px;
+  	border-radius: 20px;
+  	z-index: 20;
+  	position: relative;
+  	right: 10px;
+}
+.btnSearch {
+	position: relative;
+	color: rgb(100, 30, 200);
+	width: 10%;
+	min-width: 60px;
+	padding-left: 10px;
+	height: 30px;
+
+}
+.searchBox {
+	position: relative;
+	width: 40%;
+	padding-left: 0px;
+	border-radius: 20px;
+	height: 30px;
+
+}
+#searchGroup {
+	position: relative;
+}

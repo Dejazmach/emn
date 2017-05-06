@@ -1,0 +1,157 @@
+<section>
+  <div class="navbar navbar-inverse navbar-static-top navig navbar-fixed-top" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand logo" rel="home" href="#/" title="ገበያ - Homepage">ገበያ</a>
+    </div>
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+        <div class="col-sm-3 col-md-3 pull-left">
+            <form class="navbar-form" role="search">
+                <div class="input-group">
+                    <input type="text" class="form-control searchField" placeholder="Search" name="srch-term" id="srch-term">
+                    <div class="input-group-btn">
+                      <button type="button" class="btn dropdown-toggle navBtn" data-toggle="dropdown"><i class="glyphicon glyphicon-search"></i>
+                      <span class="caret"></span></button>
+                      <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">All</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Electronics</a></li>
+                            <li><a href="#">House holds</a></li>
+                            <li><a href="#">Software Products</a></li>
+                            <li><a href="#">Used Materials</a></li>
+                            <li><a href="#">Vehicles</a></li>
+                            
+                            <li class="divider"></li>
+                            
+                            <li><a href="#">Bars</a></li>
+                            <li><a href="#">Beauty Saloons</a></li>
+                            <li><a href="#">Boutiques</a></li>
+                            <li><a href="#">Gambling Rooms</a></li>
+                            <li><a href="#">Gas Stations</a></li>
+                            <li><a href="#">Restaurants, Hotel and Spa</a></li>
+                            <li><a href="#">Hospitals</a></li>
+                            <li><a href="#">Ministry Offices</a></li>
+                            <li><a href="#">Schools</a></li>
+                            <li><a href="#">Telecoms</a></li>
+                            <li><a href="#">Ticket Offices</a></li>
+                            <li><a href="#">Tour Operators</a></li>
+                            
+                      </ul>
+                    </div>
+                  </input>
+                </div>
+            </form>        
+        </div>
+        <div class="pull-right">
+            <ul class="nav navbar-nav navbar-right loginBtn">
+                <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+            </ul>
+        </div>
+    </div>
+    
+  </div>
+  <!--The above is the navigation bar-->
+  <div class="mainContent">
+    <div class=" row listIdentifier mainHeading">
+        <h1>Add Organization</h1><br/>
+    </div>
+    <div class="afterHeading">
+      <div class="col-sm-1"></div>
+      <div class="myPanel col-sm-9">
+        <div class="col-sm-12 containerr">
+          <br>
+            <!--The form goes here -->
+
+            <div class="form-group form-inline">
+              <br><br>
+              <div class="col-sm-6">
+                <label><h4>Enter Organization Name:</h4> </label>
+              </div>
+              <div class="col-sm-6">
+                <input class="form-control" ng-model="organization.organizationName" placeholder="Name" type="text"/>
+              </div>
+              
+            </div>
+            <br><br>
+            <div class="form-group form-inline">
+              <div class="col-sm-6">
+                <label><h4>Enter Organization's website url:</h4> </label>
+              </div>
+              <div class="col-sm-6">
+                <input class="form-control" ng-model="organization.organizationPrice" placeholder="Price" type="text"/>
+              </div>
+              
+            </div>
+            <br><br>
+            <div class="form-group form-inline">
+              <div class="col-sm-6">
+                <label><h4>Enter Manufacturer/Service Provider Name:</h4> </label>
+              </div>
+              <div class="col-sm-6">
+                <input class="form-control" ng-model="organization.organizationManufacturerName" placeholder="Provider Name" type="text"/>
+              </div>
+              
+            </div>
+            <br><br>
+            <div class="form-group form-inline">
+              <div class="col-sm-6">
+                <label><h4>Enter Specific Product/Service Model (If there is):</h4> </label>
+              </div>
+              <div class="col-sm-6">
+                <input class="form-control" ng-model="organization.organizationModel" placeholder="Model" type="text"/>
+              </div>
+            </div>
+            <br><br>
+            <div class="form-group form-inline">
+              <div class="col-sm-6">
+                <label for="sel1"><h4>Availablity:</h4></label>
+              </div>
+              <div class="col-sm-6">
+                <select class="form-control" >
+                  <option>Available</option>
+                  <option>Not Available</option>
+                </select>
+              </div>
+              
+            </div>
+            <br><br>
+            <div class="form-group form-inline">
+              <div class="col-sm-6">
+                <label><h4>Enter Organization's Description:</h4> </label>
+              </div>
+              <div class="col-sm-6">
+                <textarea class="form-control" ng-model="organization.organizationDescription" name="name" placeholder="Description" type="text"></textarea>
+              </div>
+              
+            </div>
+            <br><br>
+            <div class="form-group form-inline">
+              <div class="col-sm-6">
+                <label><h4>Upload Logo for the Organization:</h4> </label>
+              </div>
+              <div class="col-sm-6">
+                <form class="form-inline">
+                <a href="#"><button type="button" class="btn btn-default">Upload</button></a>
+              </form>
+              </div>
+              
+            </div>
+            <br><br>
+            
+            <a href="#/organizations"><input type="button" value="Add" class="btn btn-default" ng-click="addOrganization(organization)"></input></a>  
+        </div>      
+      </div>
+      <div class="col-sm-2">
+        <a href="#"><img src="images/Ethiopian Train.jpg"></a>
+        <p><h4>This is where the first ad goes! I will put one of the ads here.</h4></p>
+      </div>
+    </div>
+  </div>
+</section>

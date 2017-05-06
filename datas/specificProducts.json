@@ -1,0 +1,47 @@
+[
+  {
+    "specificProductName":"Flat",
+    "specificProductPrice":"30,000",
+    "specificProductManufacturerName":"None",
+    "specificProductModel":"None",
+    "specificProductAvailablity":"true",
+    "specificProductId": "specificProduct1",
+    "specifcProductDescription":"Flat with 4 by 4 saloon, a kichen and a bathroom. The shower has water heater. The flat is found at the 4th floor of one of the Condominiums in Ayat."
+  },
+  {
+    "specificProductName":"Yaris",
+    "specificProductPrice":"20000",
+    "specificProductManufacturerName":"Marhaton Motors",
+    "specificProductModel":"2015",
+    "specificProductAvailablity":"true",
+    "specificProductId": "specificProduct2",
+    "specifcProductDescription":"2000 cc yaris with sliver, white and black colors. Customers are satisfied with the low gas usage capablity of these products."
+  },
+  {
+    "specificProductName":"L Shape Lether Covered Sofa",
+    "specificProductPrice":"2000",
+    "specificProductManufacturerName":"3F",
+    "specificProductModel":"3FEthio1",
+    "specificProductAvailablity":"false",
+    "specificProductId": "specificProduct3",
+    "specifcProductDescription":"Our L Shape Lether Covered Sofa comes with 2 colors: brown and black. The sofa is available for a very cheap price and you even have 1 additional gift while ordering 20 incase you are a distributer."
+  },
+  {
+    "specificProductName":"Mouth Wash",
+    "specificProductPrice":"50",
+    "specificProductManufacturerName":"Dr. Emebet Dental Clinic",
+    "specificProductModel":"none",
+    "specificProductAvailablity":"true",
+    "specificProductId": "specificProduct4",
+    "specifcProductDescription":"Mouth Wash includes the cleaning of teeth, gum and throat which gives a long term healthy mouth."
+  },
+  {
+    "specificProductName":"Bus Ticket from AA to Bahir Dar",
+    "specificProductPrice":"15",
+    "specificProductManufacturerName":"Selam Bus",
+    "specificProductModel":"none",
+    "specificProductAvailablity":"true",
+    "specificProductId": "specificProduct5",
+    "specifcProductDescription":"Our selam bus ticket from addis ababa to bahir dar consists of travel and supplementary breakfast expenses. Enjoy this ticket to the beautiful city of Bahir Dar."
+  }
+]
